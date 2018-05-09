@@ -1,0 +1,8 @@
+<view wx:for="{{list}}" class="item{{currentIndex==index?'selected':''}}" bindtap="onTabsItemTap" data-index="{{index}}"
+>
+
+
+  <text class='title'>{{item.title}}</text>
+
+
+</view>

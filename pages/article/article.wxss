@@ -1,0 +1,11 @@
+/* pages/article/article.wxss */
+.item{
+  margin-left: 10px;
+  margin: 10px;
+}
+.title {
+  color: #39f;
+  font-size: 13px;
+}
+
+

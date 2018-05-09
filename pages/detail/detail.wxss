@@ -1,0 +1,6 @@
+/* pages/detail/detail.wxss */
+.web{
+  padding: 8px;
+  margin: 8px;
+  position: relative;
+}

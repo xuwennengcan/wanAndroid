@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/article/article",
+    "pages/project/project",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3399ff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "wanAndroid",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#3399ff",
+    "color": "#8a8a8a",
+    "list": [
+      {
+        "pagePath": "pages/article/article",
+        "text": "最新文章",
+        "iconPath": "images/img_article_default.png",
+        "selectedIconPath": "images/img_article.png"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "最新项目",
+        "iconPath": "images/img_project_default.png",
+        "selectedIconPath": "images/img_project.png"
+      }
+    ]
+  }
+}

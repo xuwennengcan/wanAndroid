@@ -40,10 +40,6 @@ Page(
 wx.request({
   url: app.url.article,
   method: 'GET',
-  data: {},
-  header: {
-    'content-type': 'application/json'
-  },
   success: function (res) {
     list = res.data.data.datas;
     console.log(list);

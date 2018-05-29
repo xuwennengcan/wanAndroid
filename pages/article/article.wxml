@@ -1,4 +1,5 @@
-<view wx:for="{{list}}" class="item" bindtap="onTabsItemTap" data-index="{{index}}"
+<view wx:for="{{list}}" class="item" bindtap="onTabsItemTap" 
+data-index='{{index}}'
 >
 
 

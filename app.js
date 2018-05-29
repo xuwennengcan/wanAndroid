@@ -10,7 +10,7 @@ App({
    * 公共请求网址
    */
   url:{
-    article:"http://www.wanandroid.com/article/list/0/json",
+    article:"http://www.wanandroid.com/article/list/",
     
   },
   

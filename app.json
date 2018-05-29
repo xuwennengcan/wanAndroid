@@ -8,7 +8,7 @@
     "navigationBarBackgroundColor": "#3399ff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "wanAndroid",
-    "backgroundColor": "#eeeeee",
+    "backgroundColor": "#3399ff",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
   },
@@ -20,13 +20,15 @@
         "pagePath": "pages/article/article",
         "text": "最新文章",
         "iconPath": "images/img_article_default.png",
-        "selectedIconPath": "images/img_article.png"
+        "selectedIconPath": "images/img_article.png",
+        "enablePullDownRefresh": true
       },
       {
         "pagePath": "pages/project/project",
         "text": "最新项目",
         "iconPath": "images/img_project_default.png",
-        "selectedIconPath": "images/img_project.png"
+        "selectedIconPath": "images/img_project.png",
+        "enablePullDownRefresh": true
       }
     ]
   }

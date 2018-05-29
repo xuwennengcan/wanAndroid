@@ -1,10 +1,8 @@
 
 var list;
 var app = getApp();
-var index;
 var currentIndex;
-var link;
-var title;
+
 Page(
   {
     data:{
@@ -12,9 +10,9 @@ Page(
 
     },
     onTabsItemTap:function(options){
-      index = options.currentTarget.dataset['index'];
-      link = list[index].link;
-      title = list[index].title;
+      var index = options.currentTarget.dataset['index'];
+      var link = list[index].link;
+      var title = list[index].title;
       this.setData({
         currentIndex: index
       }),
